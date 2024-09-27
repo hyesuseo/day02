@@ -14,8 +14,10 @@ public class quiz_hs {
 	 if (ans ==1 || ans==2 || ans==3)//ans가 1,2,3 의 값중 어느 하나라면
 	 			{
 		 System.out.println("흠 그건좀...."); //흠 그건좀을 출력한다
-	 }else {
+	 }else if (ans ==4 ){
 		 System.out.println("먹으러 갑시다!"); //4의 값의 경우에만 옆을 출력한다.
+	 }else {
+		 System.out.println("올바르지 못한 접근입니다");
 	 }
 	 	 
  }
