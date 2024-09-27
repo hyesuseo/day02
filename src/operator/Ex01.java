@@ -94,10 +94,13 @@ System.out.println("n1 : " +n1);
 System.out.println("n2 : " +n2);
 
 System.out.println("---조건연산자---");
-n1=10; n2=20;
-String r = (n1 > n2)?"n1이 n2보다 크다":"n2가 n1보다 크다"; //결과값이 r이라는변수에 저장된다.
+n1=31; n2=20;
+String r = (n1 > n2)?"n1이 n2보다 크다":"n2가 n1보다 크다"; //결과값이 r이라는 변수에 저장된다.
 //이때 자료형은 문자열이므로 string에 저장해야한다
 System.out.println(r);
+//이런식으로 사용가능 ( n1>n2 && n1%2 ==0 )?"n1은 n2보다 큰 짝수이다":
+
+
 }
 
 }
