@@ -15,7 +15,7 @@ public class another02 {
 	mode = input.nextInt();
 	int num = 0;
 	if (mode == 1) {
-		num=(int)((Math.random()*11));
+		num=(int)((Math.random()*11)); //0부터 0.9까지의 
 	}else if (mode == 2) {
 		num=(int)((Math.random()*101));
 	}else if (mode ==3) {
